@@ -1,0 +1,195 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.1.3.2)
+      activesupport (= 7.1.3.2)
+    activesupport (7.1.3.2)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
+    awesome_print (1.9.2)
+    base64 (0.2.0)
+    bigdecimal (3.1.8)
+    bson (5.0.0)
+    capybara (3.40.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.11)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    cmdparse (3.0.7)
+    concurrent-ruby (1.2.3)
+    connection_pool (2.4.1)
+    csv (3.2.8)
+    diff-lcs (1.5.1)
+    domain_name (0.6.20240107)
+    drb (2.2.1)
+    ffi (1.16.3)
+    ffi-compiler (1.3.2)
+      ffi (>= 1.15.5)
+      rake
+    http (5.2.0)
+      addressable (~> 2.8)
+      base64 (~> 0.1)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      llhttp-ffi (~> 0.5.0)
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    i18n (1.14.5)
+      concurrent-ruby (~> 1.0)
+    json (2.7.2)
+    kaminari-core (1.2.2)
+    kaminari-mongoid (1.0.2)
+      kaminari-core (~> 1.0)
+      mongoid
+    language_server-protocol (3.17.0.3)
+    llhttp-ffi (0.5.0)
+      ffi-compiler (~> 1.0)
+      rake (~> 13.0)
+    matrix (0.4.2)
+    mime-types (3.5.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2024.0507)
+    mini_mime (1.1.5)
+    mini_portile2 (2.8.6)
+    minitest (5.22.3)
+    mongo (2.20.0)
+      bson (>= 4.14.1, < 6.0.0)
+    mongoid (9.0.0)
+      activemodel (>= 5.1, < 7.2, != 7.0.0)
+      concurrent-ruby (>= 1.0.5, < 2.0)
+      mongo (>= 2.18.0, < 3.0.0)
+    mongoid-geospatial (5.1.0)
+      mongoid (>= 4.0.0)
+    mongoid-pagination (0.2.0)
+      activesupport
+      mongoid
+    multi_json (1.15.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    mutex_m (0.2.0)
+    netrc (0.11.0)
+    nokogiri (1.16.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.16.4-arm64-darwin)
+      racc (~> 1.4)
+    parallel (1.24.0)
+    parser (3.3.1.0)
+      ast (~> 2.4.1)
+      racc
+    public_suffix (5.0.5)
+    racc (1.7.3)
+    rack (3.0.10)
+    rack-protection (4.0.0)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.0.0)
+      rack (>= 3.0.0)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    rainbow (3.1.1)
+    rake (13.1.0)
+    regexp_parser (2.9.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rexml (3.2.6)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    rubocop (1.63.4)
+      json (~> 2.3)
+      language_server-protocol (>= 3.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.31.1, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.31.3)
+      parser (>= 3.3.1.0)
+    ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
+    sinatra (4.0.0)
+      mustermann (~> 3.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.0.0)
+      rack-session (>= 2.0.0, < 3)
+      tilt (~> 2.0)
+    sinatra-contrib (4.0.0)
+      multi_json (>= 0.0.2)
+      mustermann (~> 3.0)
+      rack-protection (= 4.0.0)
+      sinatra (= 4.0.0)
+      tilt (~> 2.0)
+    slop (4.10.1)
+    table_print (1.5.7)
+    tilt (2.3.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (2.5.0)
+    webrick (1.8.1)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  capybara
+  cmdparse
+  csv
+  http
+  kaminari-mongoid
+  mongo (~> 2)
+  mongoid
+  mongoid-geospatial
+  mongoid-pagination
+  rack-test
+  rackup
+  rake
+  rest-client
+  rspec
+  rubocop
+  sinatra
+  sinatra-contrib
+  slop
+  table_print
+
+BUNDLED WITH
+   2.5.10

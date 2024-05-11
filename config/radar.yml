@@ -1,0 +1,6 @@
+production:
+  api_key:
+development:
+  api_key: prj_test_sk_04049d6908de270087953479d7e1200cd34d8c51
+test:
+  api_key:

@@ -1,0 +1,27 @@
+production:
+  clients:
+    default:
+      database: foodcart_production
+      hosts:
+        - localhost:27017
+  options:
+
+development:
+  clients:
+    default:
+      database: foodcart_dev
+      hosts:
+        - localhost:27017
+  options:
+    #log_level: :debug
+
+test:
+  clients:
+    default:
+      database: foodcart_test
+      hosts:
+        - localhost:27017
+  options:
+
+
+

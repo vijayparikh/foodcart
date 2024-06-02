@@ -2,7 +2,7 @@
 # Food Cart
 
 
-This is a simple application that allow you to query the Mobile Food Facilty Parmit data set [hosted Data SF site](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data).  It consists of information on the mobile food vendors that are registered and operating. 
+This is a simple application that allow you to query the Mobile Food Facilty Permit data set [hosted Data SF site](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data).  It consists of information on the mobile food vendors that are registered and operating. 
 
 This command line application allows you - from the command line to search - the data set for a food cart by vendor, a food type or the type of cart (cart or truck).  In addition, a geo search is done (using third party API - [Radar](https://radar.com/search)) to find how far the food truck is by car and foot. 
 
@@ -156,7 +156,7 @@ As stated earlier - we have time boxed our selves to four to five hours.  Given 
 - Pick the correct tech stack for this project for production / cost efficiency currently the criteria was minimize time/complexity. 
   - If we are going for outright performance, NodeJS would be the obvious choice (optimized to maintain even based structure)
   - however, I am a big fan of RAILS as it is the best backend system for maintainability and quick development. 
-  - Mongo D
+  - Mongo database configuration - setup Geo shards / replication properly  (obviously depends on how much data we have)
 
 ### Thoughts
 
